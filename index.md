@@ -3,4 +3,4 @@
 Chapters:
 
 -   [Linkage Disequilibrium](chapters/LD)
--   [Linkage Score](chapters/LD-Score)
+-   [LD Score](chapters/LD-Score)
