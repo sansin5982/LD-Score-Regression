@@ -11,4 +11,6 @@ Chapters:
         Panels](chapters/Pre-requisite/Genomic-context)
     -   [Confounding Factors: Population Stratification and its
         Correction](chapters/Pre-requisite/Confounding)
+    -   [Deconstructing Heritability: From Family Studies to Genomic
+        Estimates](chapters/Pre-requisite/Heritability)
 -   [LD Score](chapters/LD-Score)
