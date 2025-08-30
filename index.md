@@ -15,4 +15,6 @@ Chapters:
         Estimates](chapters/Pre-requisite/Heritability)
 -   [Preparing for LDSC: Navigating Genomic Data
     Files](chapters/File-formation)
+-   [Setting Up LDSC: Installation and Required
+    Data](chapters/Installation)
 -   [LD Score](chapters/LD-Score)
