@@ -70,27 +70,29 @@ summary statistics to ensure interoperability
 ([REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false),
 [REF](https://www.ebi.ac.uk/gwas/docs/summary-statistics-format)).
 
-Key QC steps include: \* **Header and Format Consistency**: Tools exist
-to check and standardize column headers (e.g., SNP, CHR, BP, A1, A2, P)
-and to convert files to a consistent format, such as `.tsv`
-([REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false),
-[REF](https://www.ebi.ac.uk/gwas/docs/summary-statistics-format)). . \*
-**Variant Filtering**: QC is used to remove problematic SNPs. This
-includes removing non-biallelic SNPs, SNPs with missing data, and SNPs
-with P-values that are too small or equal to zero
-([REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false)).
-\* **Allele Direction and Strand Ambiguity**: It is crucial to ensure
-that the effect allele (A1) and non-effect allele (A2) from the summary
-statistics match a reference genome to maintain consistent
-directionality of effects. Some software also filters out
-“strand-ambiguous” SNPs (A/T or C/G) that are difficult to orient
-correctly ([REF](https://www.sanger.ac.uk/data/hapmap-3/),
-[REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false)).
-\* **Sample Size and Imputation Quality**: QC procedures can filter out
-SNPs with imputation quality scores (INFO score) below a certain
-threshold (e.g., &lt; 0.9) and remove SNPs that have a sample size that
-is substantially different from the rest of the study
-([REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false)).
+Key QC steps include:
+
+-   **Header and Format Consistency**: Tools exist to check and
+    standardize column headers (e.g., SNP, CHR, BP, A1, A2, P) and to
+    convert files to a consistent format, such as `.tsv`
+    ([REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false),
+    [REF](https://www.ebi.ac.uk/gwas/docs/summary-statistics-format)). .
+-   **Variant Filtering**: QC is used to remove problematic SNPs. This
+    includes removing non-biallelic SNPs, SNPs with missing data, and
+    SNPs with P-values that are too small or equal to zero
+    ([REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false)).
+-   **Allele Direction and Strand Ambiguity**: It is crucial to ensure
+    that the effect allele (A1) and non-effect allele (A2) from the
+    summary statistics match a reference genome to maintain consistent
+    directionality of effects. Some software also filters out
+    “strand-ambiguous” SNPs (A/T or C/G) that are difficult to orient
+    correctly ([REF](https://www.sanger.ac.uk/data/hapmap-3/),
+    [REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false)).
+-   **Sample Size and Imputation Quality**: QC procedures can filter out
+    SNPs with imputation quality scores (INFO score) below a certain
+    threshold (e.g., &lt; 0.9) and remove SNPs that have a sample size
+    that is substantially different from the rest of the study
+    ([REF](https://academic.oup.com/bioinformatics/article/37/23/4593/6380562?login=false)).
 
 These steps are essential to produce a clean, standardized summary
 statistics file that can be used effectively by downstream analysis
