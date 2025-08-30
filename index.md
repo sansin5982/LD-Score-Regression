@@ -14,5 +14,5 @@ Chapters:
     -   [Deconstructing Heritability: From Family Studies to Genomic
         Estimates](chapters/Pre-requisite/Heritability)
 -   [Preparing for LDSC: Navigating Genomic Data
-    Files](chapters/Pre-requisite/File-formation)
+    Files](chapters/File-formation)
 -   [LD Score](chapters/LD-Score)
